@@ -47,7 +47,11 @@ def generate_pedati_plan_bm(topic, syllabus, extra_context):
     [4 poin mengenai etika digital, penggunaan Chromebook, Canva, YouTube, atau peranti digital secara bertanggungjawab]
 
     SECTION: PERINGKAT PEDATI
-    STAGE: P [Pengetahuan Sedia Ada] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
+    Put this in table 1:STAGE : P [Pengetahuan Sedia Ada]
+    Put in Column 1: STAGE: P [Pengetahuan Sedia Ada] 
+    Put in Column 2: SB: [Aktiviti Guru]
+    Put in Column 3: CB: [Aktiviti Murid]
+    
     STAGE: E [Engage] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
     STAGE: D [Develop] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
     STAGE: A [Apply] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
