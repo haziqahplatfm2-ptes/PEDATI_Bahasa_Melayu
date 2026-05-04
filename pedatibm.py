@@ -27,6 +27,10 @@ def generate_pedati_plan_bm(topic, syllabus, extra_context):
     Topik: {topic}. Kod Sukatan Pelajaran: {syllabus}. Konteks: {extra_context}.
     Hasilkan rancangan pengajaran profesional dalam BAHASA MELAYU sepenuhnya. 
     Pastikan tiada istilah Bahasa Inggeris digunakan kecuali jika perlu untuk istilah teknikal.
+
+    Jika ada disebutkan di dalam Ruang Konteks: penyata seperti berikut **tukar ke tulisan JAWI Melayu**
+    Pastikan tiada istilah Bahasa Inggeris dan Tulisan Bahasa Melayu digunakan kecuali jika perlu untuk istilah teknikal.
+    
     Gunakan nama peringkat PEDATI berikut:
     P [Pengetahuan Sedia Ada], E [Empati/Engage], D [Daya Usaha/Develop], A [Aplikasi], T [Taksiran], I [Imbas Kembali/Improve].
 
