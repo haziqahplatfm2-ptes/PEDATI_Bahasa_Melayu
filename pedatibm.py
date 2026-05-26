@@ -51,7 +51,7 @@ def generate_pedati_plan_bm(topic, syllabus, extra_context):
     [4 poin mengenai etika digital, penggunaan Chromebook, Canva, YouTube, atau peranti digital secara bertanggungjawab]
 
     SECTION: PERINGKAT PEDATI
-    STAGE: P [Pengetahuan Sedia Ada] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
+    STAGE: P [Pengetahuan Sedia Ada] | SB: [Aktiviti Murid] | CB: [Aktiviti Murid]
     STAGE: E [Engage] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
     STAGE: D [Develop] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
     STAGE: A [Apply] | SB: [Aktiviti Guru] | CB: [Aktiviti Murid]
@@ -97,12 +97,12 @@ def create_word_export_bm(topic, syllabus, text):
             table = doc.add_table(rows=1, cols=3)
             table.style = 'Table Grid'
             hdr = table.rows[0].cells
-            hdr[0].text, hdr[1].text, hdr[2].text = 'Peringkat (PEDATI)', 'Fasilitator (Guru)', 'Pelajar (Murid)'
+            hdr[0].text, hdr[1].text, hdr[2].text = 'Peringkat (PEDATI)', 'Aktiviti Pertama', 'Aktiviti Kedua'
 
             for line in content_lines:
                 if "|" in line:
                     p = line.split("|")
-                    row = table.add_row().cells
+                    row = table.add_row().
                     row[0].text = p[0].split(":")[-1].strip()
                     row[1].text = p[1].split(":")[-1].strip()
                     row[2].text = p[2].split(":")[-1].strip()
