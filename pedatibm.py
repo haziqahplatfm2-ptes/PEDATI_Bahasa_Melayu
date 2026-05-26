@@ -102,7 +102,7 @@ def create_word_export_bm(topic, syllabus, text):
             for line in content_lines:
                 if "|" in line:
                     p = line.split("|")
-                    row = table.add_row().
+                    row = table.add_row().cells
                     row[0].text = p[0].split(":")[-1].strip()
                     row[1].text = p[1].split(":")[-1].strip()
                     row[2].text = p[2].split(":")[-1].strip()
