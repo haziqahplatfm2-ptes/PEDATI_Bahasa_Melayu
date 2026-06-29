@@ -5,7 +5,7 @@ from docx import Document
 from docx.shared import Pt, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
-from docx.oxml.qn import qn
+from docx.oxml.ns import qn  #  Betul: Diimport terus daripada namespace (.ns)
 from io import BytesIO
 
 # --- 1. KONFIGURASI ---
